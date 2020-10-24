@@ -50,9 +50,11 @@ public class Emp {
 
 	
 
+	
+
 	@Override
 	public String toString() {
-		return "Emp [ecode=" + ecode + ", ename=" + ename + ", sal=" + sal + ", project=" + project + "]";
+		return "Emp [ecode=" + ecode + ", ename=" + ename + ", sal=" + sal + "]";
 	}
 
 	public Emp() {
